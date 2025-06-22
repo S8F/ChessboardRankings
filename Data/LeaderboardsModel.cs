@@ -1,6 +1,6 @@
 namespace ChessboardRankings.Data
 {
-    public class Leaderboards
+    public class LeaderboardsModel
     {
         public List<Player> daily { get; set; }
         public List<Player> rapid { get; set; }

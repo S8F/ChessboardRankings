@@ -13,11 +13,11 @@ namespace ChessboardRankings.Services
             _httpClient = httpClient;
         }
 
-        public async Task<Leaderboards?> GetLeaderboardsAsync( )
+        public async Task<LeaderboardsModel?> GetLeaderboardsAsync( )
         {
             try
             {
-                return await _httpClient.GetFromJsonAsync<Leaderboards>("https://api.chess.com/pub/leaderboards" );
+                return await _httpClient.GetFromJsonAsync<LeaderboardsModel>("https://api.chess.com/pub/leaderboards" );
             }
             catch (HttpRequestException ex)
             {
