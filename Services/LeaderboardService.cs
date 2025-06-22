@@ -21,7 +21,6 @@ namespace ChessboardRankings.Services
             }
             catch (HttpRequestException ex)
             {
-                // Log the exception or handle it as appropriate for your application
                 Console.WriteLine($"Error fetching leaderboards: {ex.Message}");
                 return null;
             }

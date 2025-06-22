@@ -28,7 +28,7 @@ else
             @if (GetSelectedPlayers() != null && GetSelectedPlayers().Any())
             {
                 <div class="players-grid">
-                    @foreach (var player in GetSelectedPlayers().Take(15))
+                    @foreach (var player in GetSelectedPlayers().Take(10))
                     {
                         <div class="player-card">
                             <div class="player-rank">
