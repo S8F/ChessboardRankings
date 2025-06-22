@@ -43,4 +43,4 @@ This Blazor WebAssembly application displays real-time chess leaderboards from t
 
 ## API Reference
 
-`https://api.chess.com/pub/leaderboards`.
+`https://api.chess.com/pub/leaderboards`
